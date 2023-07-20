@@ -1,5 +1,3 @@
-
-
 <?php
 $path = "https://api.telegram.org/bot<Your Bot Token>/";
 $update = json_decode(file_get_contents("php://input"), TRUE); 
@@ -11,7 +9,6 @@ $last = $update["message"]["from"]["last_name"];
 $callback_query = $update['callback_query'];
  
 
-//***********************************************
 
 $buttons = json_encode(
     [ 'keyboard' =>
