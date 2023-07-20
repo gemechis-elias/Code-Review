@@ -9,7 +9,7 @@ $last = $update["message"]["from"]["last_name"];
 $callback_query = $update['callback_query'];
  
 
-//*********************** 
+
 $buttons = json_encode(
     [ 'keyboard' =>
         [ 
