@@ -10,7 +10,7 @@ $callback_query = $update['callback_query'];
  
 
 //***********************************************
-// inline button added
+// inline button added now
 $buttons = json_encode(
     [ 'keyboard' =>
         [ 
